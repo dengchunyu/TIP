@@ -1,0 +1,24 @@
+Steps	Sample1	Sample2	Sample3	Sample4	Sample5
+Step1	0.75	0.508	0.637	0.752	0.242
+Step2	4591.361	3625.423	4600.671	0	-2244.328
+Step3	-1.075	1.414	1.414	1.414	852.514
+Step4.T cell.recruiting	1.031	1.065	1	-0.889	-0.594
+Step4.CD4 T cell.recruiting	0.868	1.167	0.624	-0.707	0.267
+Step4.CD8 T cell.recruiting	1.035	0.558	1.073	-0.35	0.114
+Step4.Th1 cell.recruiting	1.112	-0.707	0.895	-0.707	-0.707
+Step4.Dendritic cell.recruiting	-0.707	0.457	-0.707	-0.439	-0.379
+Step4.Th22 cell.recruiting	-0.707	-0.365	-0.05	0.045	0.743
+Step4.Macrophage.recruiting	0.707	5253.223	0.707	5858.93	0.707
+Step4.Monocyte.recruiting	0.873	0.792	0.992	-0.182	-0.162
+Step4.Neutrophil.recruiting	0.92	0.707	0.707	0.256	-0.707
+Step4.NK cell.recruiting	1.48	1.023	1.079	-0.616	0.258
+Step4.Eosinophil.recruiting	0.886	-1.091	1.089	0.739	1.146
+Step4.Basophil.recruiting	-0.595	-1.144	-0.241	0.872	0.663
+Step4.Th17 cell.recruiting	-0.707	-0.707	-0.707	-0.707	-0.707
+Step4.B cell.recruiting	-1.086	-1.145	-0.934	-1.117	-1.132
+Step4.Th2 cell.recruiting	-0.192	0.944	-0.823	-0.612	-0.449
+Step4.Treg cell.recruiting	-0.919	-1.01	-1.076	-1.126	-1.062
+Step4.MDSC.recruiting	0.912	-0.128	0.707	0.707	0.707
+Step5	0.001	-0.001	-0.062	-0.401	-0.332
+Step6	-918.27	-1.74	0.457	1.916	0.561
+Step7	0.474	0.991	-0.379	0.069	1.262

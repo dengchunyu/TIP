@@ -1,0 +1,2 @@
+name,T cell.recruiting,CD4 T cell.recruiting,CD8 T cell.recruiting,Th1 cell.recruiting,Dendritic cell.recruiting,Th22 cell.recruiting,Macrophage.recruiting,Monocyte.recruiting,Neutrophil.recruiting,NK cell.recruiting,Eosinophil.recruiting,Basophil.recruiting,Th17 cell.recruiting,B cell.recruiting,Th2 cell.recruiting,Treg cell.recruiting,MDSC.recruiting
+sample,   1.065,   1.167,   0.558,  -0.707,   0.457,  -0.365,5253.223,   0.792,   0.707,   1.023,  -1.091,  -1.144,  -0.707,  -1.145,   0.944,  -1.010,  -0.128

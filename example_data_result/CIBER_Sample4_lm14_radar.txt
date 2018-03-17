@@ -1,0 +1,2 @@
+name,NK,CD4 Memory,Treg cell,CD8 Naive,Plasma,Monocytes CD16,Monocytes CD14,CD8 Effector,CD8 Memory,B cells,DC,pDC,CD4 Naive,Th cell
+Sample,0.008,0.112,0.188,0,0.012,0,0.001,0.014,0,0,0.158,0.207,0.301,0
