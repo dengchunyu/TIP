@@ -1,4 +1,4 @@
-# TIP
+# Infiltration
 ## Code
 The TIP web server source code including two sections,immune activity score and CIBERSORT immune infiltration,the code in this project is about CIBERSORT immune infiltration. 
 
