@@ -2,7 +2,7 @@
 The underlying data that used for computation.
 	annotation.RData contains the signature genes involved in the seven steps of cancer-immunity cycle.
 	human_gene2ensembl2symbol_list.RData is used for gene identifier transformation.
-	signature.GeneSymbol.list.RData contains signature genes in different identifier form.
+	signature.GeneSymbol.list.RData contains IDs of signature genes from different databases.
 	genename_length3.0.Rdata contains gene length.
 	
 
