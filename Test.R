@@ -15,7 +15,7 @@ immunityScore.server(codePath = "./2.ImmuneActivityScore",
                      filePath = "./example_data_result", 
                      saveDir = "./example_data_result",
                      sampleNumber=sample.number,
-                     permTimes = 3,
+                     permTimes = 10,
                      type.of.data = "RNA-seq",
                      format.of.file = "TPM");
 
@@ -24,6 +24,6 @@ CIBERSORT.server(codePath="./3.ImmuneInfiltration",
                  filePath="./example_data_result",
                  signaturePath="./3.ImmuneInfiltration",
                  saveDir="./example_data_result",
-                 perm = 100,
+                 perm = 10,
                  CHIPorRNASEQ="RNA-seq",
                  sample="multiple");
