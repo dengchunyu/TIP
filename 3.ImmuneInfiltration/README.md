@@ -1,28 +1,24 @@
 # Infiltration
-## Code
-The TIP web server source code including two sections,immune activity score and CIBERSORT immune infiltration,the code in this project is about CIBERSORT immune infiltration. 
+## [Code]
+The source codes are used for resolving immune infiltration based on the CIBERSORT method.
 
-### The code for webserver results arrangement  
 **1.CIBERSORT_server.R**  
-The final execute function, all code files are on tap. export final results.  
+The final execute function of Infiltration.
 
 **2.CIBERSORT_main.R**  
-Change the CIBERSORT infiltration results to interactive graphics data that the TIP need.  
-
-### The most important code about immune infiltration come from CIBERSORT v1.03,little revise
+Tranform the CIBERSORT infiltration results to interactive graphics data required by the TIP.  
 
 **3.CIBERSORT_func.R**  
-Compute infiltration proportion.
+The most important code about calculation of immune infiltration obtained from CIBERSORT v1.03. Make little revision in the 'Compute infiltration' proportion.
 
 **4.CoreAlg.R**  
-Core algorithm  
+SVR core algorithm  
 
 **5.doPerm.R**   
-Do permutations  
+Calculating permutations  
 
 
-
-## File
+## [File]
 **1.LM14_name3.0.txt**  
 14 immune cells signature matrix  
 
