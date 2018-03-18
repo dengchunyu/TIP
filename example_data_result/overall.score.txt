@@ -1,6 +1,0 @@
-Samples	Overall.activity
-Sample1	3678.152
-Sample2	8880.234
-Sample3	4607.073
-Sample4	5857.847
-Sample5	-1391.375
