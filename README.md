@@ -7,13 +7,13 @@ TIP is a user-friendly one-stop shop web tool to comprehensively resolve tumor i
 Contains two code files of first step of TIP web-server, checking whether the format of upload file is standard or not.  
 
 **[2.ImmuneActivityScore]**  
-Contains twelve core source code files and four underlying data files using for the calculation of immune activity levels .  
+Contains twelve core source code files and four underlying data files used for the calculation of immune activity levels.  
 
 **[3.ImmuneInfiltration]**  
-Contains five core source code files and two signature matrix files using for the calculation of immune infiltration.  
+Contains five core source code files and two signature matrix files used for the calculation of immune infiltration.  
 
 **[Test]**  
-R scripts for quick run of total process  
+R scripts for quick run of total process.  
 
 **[example_data]**  
 contains expression data from RNA-seq TPM for example.
