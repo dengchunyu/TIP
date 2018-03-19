@@ -1,5 +1,5 @@
 #' @@ checkError
-#' @description A main function of checking 
+#' @description A main function of checking format of users uploaded expression profile
 #' @param  filePath character representing the memory address of expression profile
 #' @param  fileName character representing the file name of expression profile
 #' @param  codePath character representing memory address of underlying .RData
