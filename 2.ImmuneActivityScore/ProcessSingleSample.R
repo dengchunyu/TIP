@@ -1,12 +1,19 @@
 #' @@ ProcessSingleSample
-#' @param expression.from.users expression profile from users
-#' @param save.dir the storage path of results 
-#' @param signatureList list of signature genes, the 'signature.GeneSymbol.list' is default
-#' @param perm.times times of permutation, default=100
-#' @param signature.annotation step and direction information about signature genes, 'annotation' is default
-#' @param type.of.data expression data from 'Microarray'or 'RNA-seq' 
-#' @param format.of.file format of RNA-seq expression data, choose 'TPM' or 'Count'
-#' @param gene.length.path the storage path of the gene length file
+#' 
+#' @description Several steps to deal with users uploaded single-sample expression profile:    
+#' calculating and normalizing ES score of the sample, combine the normalized ES score from   
+#' positive set and negative set of genes belong to the same step by calculating the difference between them,    
+#' then change the format of results for visualization on web.
+#' 
+#' @param expression.from.users A data.frame contains expression data from users.  
+#' @param save.dir Character represting the storage path of results.  
+#' @param signatureList List of signature genes, default by 'signature.GeneSymbol.list'.
+#' @param perm.times Numeric value indicating times of permutation, default by 100.  
+#' @param signature.annotation A data.frame contains step and function direction information about signature genes,   
+#' default by 'annotation'.
+#' @param type.of.data Character indicating source of expression data, 'Microarray'or 'RNA-seq'.  
+#' @param format.of.file Character indicating format of RNA-seq expression data, 'TPM' or 'Count'.  
+#' @param gene.length.path Character represting the storage path of the gene length file. 
 
 ProcessSingleSample <- function(expression.from.users, save.dir, 
                                 signatureList = signature.GeneSymbol.list, 
