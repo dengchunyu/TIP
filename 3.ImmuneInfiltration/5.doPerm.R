@@ -1,8 +1,21 @@
-#' do permutations
-#' @param perm Number of permutations
-#' @param X cell-specific gene expression
-#' @param y mixed expression per sample
-#' @export
+#' 
+#' @title Do permutations
+#' 
+#' @description 
+#' It's a subfunction of CIBERSORT. 
+#' To do permutations for deconvolution algorithm. Tt is the key to produce p value.
+#' It referenced by CIBERSORT to compute infiltration of immune cells and can't run alone.
+#' 
+#'
+#' @param perm 
+#' Number of permutations
+#' 
+#' @param X 
+#' cell-specific gene expression
+#' 
+#' @param y 
+#' mixed expression per sample
+
 doPerm <- function(perm, X, Y){
   itor <- 1
   Ylist <- as.list(data.matrix(Y))
