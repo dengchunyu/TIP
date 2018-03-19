@@ -1,12 +1,20 @@
-#' @@ Transform the data type of RNA-seq from count to TPM
+#' @title Transform the data type of RNA-seq from count to TPM
 #' 
+#' @description 
 #' Convert a numeric matrix of features (rows) and conditions (columns) with
-#' raw feature counts to transcripts per million.
+#' raw feature counts to transcripts per million(TPM).
 #' 
+#' @details 
+#' We need 'genename_length2.0.Rdata' to caculate TPM data.
 #' 
-#' @param countName counts file name
-#' @param filePath the storage path of 'genename_length2.0.Rdata' 
-#' @param sample "multiple" or 'single' to choose
+#' @param countName 
+#' The name of counts file.
+#' 
+#' @param filePath 
+#' The storage path of 'genename_length2.0.Rdata'.
+#' 
+#' @param sample 
+#' Choose "multiple" or 'single' for sample number.
 
 
 count2Tpm<-function(countName,filePath,sample="multiple"){
