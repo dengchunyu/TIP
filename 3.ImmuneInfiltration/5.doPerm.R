@@ -17,10 +17,10 @@
 #' Number of permutations
 #' 
 #' @param X 
-#' cell-specific gene expression
+#' Cell-specific gene expression
 #' 
 #' @param y 
-#' mixed expression per sample
+#' Mixed expression per sample
 
 doPerm <- function(perm, X, Y){
   itor <- 1
