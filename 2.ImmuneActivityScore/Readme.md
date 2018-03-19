@@ -29,6 +29,6 @@ This collection of code is used to change the format of results for visualizatio
 
 
 `[Main scripts]`  
-**ProcessMultipleSample.R**   This is the main function for analysising expression profile with multiple samples, required to complete 'immunityScore.server.R'.  
-**ProcessSingleSample.R**  This is the main function for analysising expression profile with a single sample, required to complete 'immunityScore.server.R'.  
+**ProcessMultipleSample.R**   This is the main function for analysising expression profile with multiple samples, required to complete 'immunityScore.server.R'.  
+**ProcessSingleSample.R**  This is the main function for analysising expression profile with a single sample, required to complete 'immunityScore.server.R'.    
 **immunityScore.server.R**  This is the main function for calculation of immune activity levels based on ssGSEA algorithm.  
