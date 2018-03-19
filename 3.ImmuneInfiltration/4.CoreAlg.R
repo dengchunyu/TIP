@@ -1,7 +1,18 @@
+#' @title 
 #' Core algorithm
-#' @param X cell-specific gene expression
-#' @param y mixed expression per sample
-#' @export
+#' 
+#' @description 
+#' The core algorithm of deconvolution algorithm, referenced by CIBERSORT to compute infiltration of immune cells. It can't run alone.
+#' 
+#' 
+#' 
+#' @param X 
+#' cell-specific gene expression.
+#' 
+#' @param y 
+#' mixed expression per sample.
+#' 
+
 CoreAlg <- function(X, y){
   
   #try different values of nu
