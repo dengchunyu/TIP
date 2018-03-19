@@ -1,3 +1,9 @@
+#' @@ filterOutliers
+#' @description Filter outliers of a matrix according to the criteria of the boxplot.
+#' @param  raw.matrix A matrix consist of numeric values.
+#' @returnType matrix
+#' @return raw matrix without outliers 
+
 filterOutliers <- function(raw.matrix){
   
   print("raw matrix summary before filter outliers: ")
