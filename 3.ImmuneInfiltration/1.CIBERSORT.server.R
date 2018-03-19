@@ -1,5 +1,5 @@
 #' @title
-#' Immune cell infiltration proportion calculate module  
+#' Immune cell infiltration proportion calculate module.
 #'  
 #' @aliases CIBERSORT  
 #'   
@@ -14,7 +14,7 @@
 #'       install.packages('e1071')
 #'       install.packages('parallel')
 #'       install.packages('preprocessCore')
-#'       if preprocessCore is not available in the repositories you have selected, run the following:
+#'       If preprocessCore is not available in the repositories you have selected, run the following:
 #'           source("http://bioconductor.org/biocLite.R")
 #'           biocLite("preprocessCore")
 #' Windows users using the R GUI may need to Run as Administrator to install or update packages.
@@ -42,34 +42,33 @@
 #' 
 #' 
 #' @param codePath:
-#' The storage path of import code files, including four files.
+#' The storage path of import code files, including four code files.
 #' 
-#' @param filePath ：the storage path of the users data, and you must make sure 
-#' 'epression.from.users.tpm.RData' is in the path.
+#' @param filePath ：
+#' The storage path of the users data, and you must make sure 'epression.from.users.tpm.RData' is in the path.
 #' 
 #' @param fileName ：
-#' the name of the users file. when you run 'test.R', this parameter is useless, but we didn't give up
-#' it in case when you want to run 'CIBERSORT.server.R' independently.
+#' The name of users file. When you run 'test.R', this parameter is useless, but we didn't give up
+#' it in case you want to run 'CIBERSORT.server.R' independently.
 #' 
 #' @param signaturePath: 
-#' the storage path of signature matrix files.
+#' The storage path of signature matrix files.
 #' 
 #' @param saveDir： 
-#' the storage path of results.
+#' The storage path of results files.
 #' 
 #' @param perm：
-#' The NO. permutation.default by 100
+#' The NO. permutation. Default by 100.
 #' 
 #' @param CHIPorRNASEQ:
-#' The source of data,'RNAseq' or 'Microarray' to choose.default by "RNA-seq"
+#' The source of data,'RNAseq' or 'Microarray' to choose. Default by "RNA-seq".
 #' 
 #' @param sample： 
-#' "multiple" or "single" sample for upload files to choose.default by "multiple"
+#' The number of upload sample, "multiple" or "single" sample for user to choose. Default by "multiple".
 #' 
 #' @param dataType: 
-#' "count" or "TPM" for upoad data type to choose.default by "TPM"
+#' The data type of upload data, "count" or "TPM" for user to choose. Default by "TPM".
 #' 
-#' @export 
 
 CIBERSORT.server <- function(codePath, filePath, fileName= "",signaturePath, saveDir, perm = 100,CHIPorRNASEQ="RNA-seq", sample="multiple",dataType="TPM"){
 
