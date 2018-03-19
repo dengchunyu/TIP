@@ -1,14 +1,39 @@
 
-#' The function to produce results file of interactive picture for web server
+#' @title 
+#' The web server file about immune infiltration
 #' 
-#' @param mixture_file input data of user data
-#' @param sig_matrix input data of signature matrix
-#' @param perm =100 by defaut ,the NO. permutations
-#' @param QN = TRUE by defaut ,Perform quantile normalization or not
-#' @param CHIPorRNASEQ the mixture_file are "Microarray" data or "RNA-seq" data
-#' @param saveDir the storage path of results
-#' @param sample 'single' and 'multiple' samples to choose
-#' @export
+#' @description 
+#' This function is to produce all the results file used to produce interactive graphics by web server.
+#' We reference the result of function 'CIBERSORT' to produce graphics files of web server need. Including 
+#' radar plot,stackplot and pie plot.
+#' 
+#' @author DengChunyu
+#' 
+#' @details 
+#' The interactive graphics files are used to web to produce beautiful and powerful interactive graphics. The format
+#' of these file is specific for graphics.
+#' 
+#' @param mixture_file 
+#' Input data of user upload.
+#' 
+#' @param sig_matrix 
+#' Input data of signature matrix.
+#' 
+#' @param perm 
+#' The NO. permutations,100 by defaut.
+#' 
+#' @param QN 
+#' TRUE by defaut ,Perform quantile normalization or not.
+#' 
+#' @param CHIPorRNASEQ 
+#' The mixture_file are "Microarray" data or "RNA-seq" data, for user to choose.
+#' 
+#' @param saveDir 
+#' The storage path of results.
+#' 
+#' @param sample 
+#' User choose 'single' and 'multiple' samples.
+#' 
 
 
 
