@@ -3,7 +3,7 @@
 #' 
 #' @description 
 #' It's a subfunction of CIBERSORT. 
-#' The core algorithm of deconvolution algorithm, referenced by CIBERSORT to compute infiltration of immune cells. It can't run alone.
+#' The core algorithm of deconvolution algorithm, referenced by CIBERSORT to compute infiltration of immune cells and it can't run alone.
 #' 
 #' 
 #' @param X 
