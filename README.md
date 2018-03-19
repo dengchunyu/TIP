@@ -21,5 +21,3 @@ contains expression data from RNA-seq TPM for example.
 **[example_data_result]**  
 The running results for example data: RNA-seq_tpm_example_5.txt.
 
-**[CIBERSORT_license.md]**   
-Because we will utilize the source code of CIBERSORT to caculate immune cell infiltration proportion. We obtained the license from https://cibersort.stanford.edu/
