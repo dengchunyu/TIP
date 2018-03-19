@@ -1,6 +1,7 @@
 #' @@ immunityScore.server
 #' 
-#' @description The main function to calculating immune activity levels based on ssGSEA algorithm, both for multiple samples and single sample profile.
+#' @description The main function to calculating immune activity levels based on ssGSEA algorithm,  
+#' both for multiple samples and single sample profile.
 #' @param codePath Character represting the storage path of import code files and underlying .RData.
 #' @param filePath Character represting the storage path of the users expression profile.
 #' @param saveDir Character represting the storage path of results.
