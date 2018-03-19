@@ -51,13 +51,13 @@ immunityScore.server <- function(codePath, filePath, saveDir, sampleNumber, perm
 		print("read down!")
 		process.check <- tryCatch({
 			example.result <- ProcessMultipleSample(expression.from.users = example, 
-	                                            save.dir = saveDir, 
-	                                            signatureList = signature.GeneSymbol.list, 
-	                                            perm.times = permTimes, 
-	                                            signature.annotation = annotation,
-	                                            type.of.data=type.of.data,
-	                                            format.of.file=format.of.file,
-	                                            gene.length.path = codePath)
+								save.dir = saveDir, 
+								signatureList = signature.GeneSymbol.list, 
+								perm.times = permTimes, 
+								signature.annotation = annotation,
+								type.of.data=type.of.data,
+								format.of.file=format.of.file,
+								gene.length.path = codePath)
 	  }, error=function(e) {
 	    errorString <- "Other"
 	    cat("Processing wrong...\n")
