@@ -37,4 +37,7 @@
 &ensp;&ensp;14 immune cells signature matrix, background document used to caculate immune infiltration component of 14 immune cells. Calculated by single cell data of PBMC from GENOMIX 10X.  
 
 **2.LM22_name.txt**  
-&ensp;&ensp;22 immune cells signature matrix, background document used to caculate immune infiltration component of 22 immune cells. Obtained from CIBERSORT website.  
+&ensp;&ensp;22 immune cells signature matrix, background document used to caculate immune infiltration component of 22 immune cells. Obtained from CIBERSORT website. 
+
+**[CIBERSORT_license.md]**   
+&ensp;&ensp;Because we will utilize the source code of CIBERSORT to caculate immune cell infiltration proportion. We obtained the license from https://cibersort.stanford.edu/
