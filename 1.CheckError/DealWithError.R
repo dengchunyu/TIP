@@ -1,10 +1,13 @@
 #' @@ DealWithError
-#' @param  filePath Memory address of expression profile
-#' @param  fileName File name of expression profile
-#' @param  codePath Memory address of underlying .RData
-#' @param  format.of.file "TPM" or "Count"
+#' @description A function for checking users uploaded expression profile, when the format isn't standard, 
+#' return a string indicating the corresbonding error type. 
+#' Required to function checkError.
+#' @param  filePath character representing the memory address of expression profile
+#' @param  fileName character representing the file name of expression profile
+#' @param  codePath character representing memory address of underlying .RData
+#' @param  format.of.file character indicating the format of RNA-seq data, choose "TPM" or "Count" 
 #' @param  saveDir If the gene identifier were thansformed, the new expression profile will be save in the directory.
-#' @return NULL
+#' @return NULL or character
 
 DealWithError <- function(filePath, fileName, codePath, format.of.file, 
                           saveDir){
