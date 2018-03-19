@@ -3,8 +3,14 @@
 #' 
 #' @description 
 #' It's a subfunction of CIBERSORT. 
-#' The core algorithm of deconvolution algorithm, referenced by CIBERSORT to compute infiltration of immune cells and it can't run alone.
-#' 
+#' SVR algorithm, the core algorithm of CIBERSORT, referenced by CIBERSORT to compute infiltration of immune cells and it can't run alone.
+#'
+#' @details 
+#' Download this file from https://cibersort.stanford.edu/
+#' CIBERSORT R script v1.03 (last updated 07-10-2015)
+#' Primary Author: Aaron M. Newman, Stanford University (amnewman@stanford.edu)
+#' There is no change compared to the source code from CIBERSORT.
+#' License: http://cibersort.stanford.edu/CIBERSORT_License.txt
 #' 
 #' @param X 
 #' cell-specific gene expression.
