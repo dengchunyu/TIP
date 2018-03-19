@@ -3,7 +3,7 @@
 `[Data]`  
 The underlying data that used for computation.
 
-**annotation.RData**   A matrix contains the signature genes involved in the seven steps of cancer-immunity cycle, with gene IDs from different databases, number of steps, direction of gene function and corresponding cell type.  
+**annotation.RData**   A data.frame contains the signature genes involved in the seven steps of cancer-immunity cycle, with gene IDs from different databases, number of steps, direction of gene function and corresponding cell type.  
 **human_gene2ensembl2symbol_list.RData**   A list used for gene identifier transformation.  
 **signature.GeneSymbol.list.RData**   A list contains gene symbol of signature genes.  
 **genename_length3.0.Rdata**  A data.frame consist of Entrze geneID, gene name and gene length required for normalizing each gene count to TPM.  
