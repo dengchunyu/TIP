@@ -1,15 +1,40 @@
-#' The functions of compute infiltration.
+#' @title CIBERSORT
 #' 
-#' There is a little difference from the source code from CIBERSORT,but no change in nature.
+#' @description 
+#' The function is referenced by CIBERSORT_server to produce other files.
 #' 
-#' @param sig_matrix signature matrix data import
-#' @param mixture_file heterogenous mixed expression,
-#' @param perm Number of permutations
-#' @param QN Perform quantile normalization or not (TRUE/FALSE)
-#' @param saveDir the storage path of results
-#' @param sigMat signature matrix name for choose."LM22" or "LM14"
-#' @param sample "multiple" or "single"
-#' @export
+#' Download this file from https://cibersort.stanford.edu/
+#' CIBERSORT R script v1.03 (last updated 07-10-2015)
+#' Primary Author: Aaron M. Newman, Stanford University (amnewman@stanford.edu)
+#' 
+#' There is a little change compared to the source code from CIBERSORT, and we already obtain permission.
+#' License: http://cibersort.stanford.edu/CIBERSORT_License.txt
+#' 
+#' @details 
+#' There are some change in parameters for our use , we need to choose diffrent signature matrix, deal with single 
+#' and multiple samples.
+#' 
+#' 
+#' @param sig_matrix 
+#' Import signature matrix data,'LM22' or 'LM14'.
+#' 
+#' @param mixture_file 
+#' User upload data.
+#' 
+#' @param perm 
+#' Number of permutations.
+#' 
+#' @param QN 
+#' Perform quantile normalization or not (TRUE/FALSE).
+#' 
+#' @param saveDir 
+#' The storage path of results.
+#' 
+#' @param sigMat 
+#' signature matrix name for choose,'LM22' or 'LM14'.
+#' 
+#' @param sample 
+#' Choose 'multiple' or 'single' samples.
 #' 
 
 CIBERSORT <- function(sig_matrix, mixture_file, perm=100, QN=TRUE,saveDir="",sigMat="LM22",sample="multiple"){
