@@ -18,7 +18,7 @@ scripts for quick run of total process.
 **[example_data]**  
 contains expression data from RNA-seq TPM for example.
 
-**Citation**  
-- L. Xu, C. Deng, B. Pang, X. Zhang, W. Liu, G. Liao, H. Yuan, P. Cheng, F. Li, Z. Long, M. Yan, T. Zhao, Y. Xiao, and X. Li, 'Tip: A Web Server for Resolving Tumor Immunophenotype Profiling', Cancer Res, 78 (2018), 6575-80.  
+## Citation  
+- L. Xu, C. Deng, B. Pang, X. Zhang, W. Liu, G. Liao, H. Yuan, P. Cheng, F. Li, Z. Long, M. Yan, T. Zhao, Y. Xiao, and X. Li, *'Tip: A Web Server for Resolving Tumor Immunophenotype Profiling'*, Cancer Res, 78 (2018), 6575-80.  
 
 
