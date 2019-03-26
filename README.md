@@ -15,8 +15,8 @@ contains the core source code used for the calculation of immune infiltration.
 **[Test.R]**  
 scripts for quick run of total process.  
 
-**[example_data]**  
-contains expression data from RNA-seq TPM for example.
+**[Test]**  
+contains expression data from RNA-seq TPM for example and main calculation results. When you test by yourself, you will also get many other result files just for visualization on web, please ignore them.
 
 ## Citation  
 - L. Xu, C. Deng, B. Pang, X. Zhang, W. Liu, G. Liao, H. Yuan, P. Cheng, F. Li, Z. Long, M. Yan, T. Zhao, Y. Xiao, and X. Li, *'Tip: A Web Server for Resolving Tumor Immunophenotype Profiling'*, Cancer Res, 78 (2018), 6575-80.  
