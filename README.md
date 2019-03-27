@@ -7,7 +7,7 @@ TIP is a user-friendly one-stop shop web tool to comprehensively resolve tumor i
 This folder contains the main function for entire calculation in TIP and integrated function for communication between R and web interfaces. There are also process for checking basic error and message logging.     
 
 **[2.ImmuneActivityScore]**  
-This folder contains twelve core source code files and four underlying data files used for the calculation of immune activity levels.  
+This folder contains core source code files and four underlying data files used for the calculation of immune activity levels.  
 
 **[3.ImmuneInfiltration]**  
 This folder contains the core source code used for the calculation of immune infiltration.  
