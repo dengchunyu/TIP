@@ -1,6 +1,6 @@
 #' @title The test of running code of TIP 
 #' 
-data <- read.table(sprintf("%s/%s","./example_data", "RNA-seq_tpm_example_5.txt"), 
+data <- read.table(sprintf("%s/%s","./Test", "RNA-seq_tpm_example_5.txt"), 
                    sep = "\t", stringsAsFactors = FALSE, header =TRUE,
                    check.names=F, na.strings = NULL, row.names = 1) 
 
