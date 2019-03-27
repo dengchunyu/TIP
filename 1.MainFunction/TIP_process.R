@@ -22,9 +22,9 @@ TIP_process <- function(
   sample)
   {
   print("start to source function!")
-  print(paste(codePath,"3.ImmuneInfiltration/CIBERSORT.server.R",sep="/"))
+  print(paste(codePath,"3.ImmuneInfiltration/1.CIBERSORT.server.R",sep="/"))
   print(paste(codePath,"2.ImmuneActivityScore/immunityScore.server.R",sep="/"))
-  source(paste(codePath,"3.ImmuneInfiltration/CIBERSORT.server.R",sep="/"))
+  source(paste(codePath,"3.ImmuneInfiltration/1.CIBERSORT.server.R",sep="/"))
   source(paste(codePath,"2.ImmuneActivityScore/immunityScore.server.R",sep="/"))
   
   print("start to run immunityScore.server!")
